@@ -34,3 +34,15 @@ build/
 
 ### Application Properties ###
 application.properties
+
+### Security / Secrets ###
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+secrets/
